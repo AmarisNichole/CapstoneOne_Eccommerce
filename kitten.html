@@ -45,12 +45,118 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-1"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Nina</h2>
+          <h3 class="price">$150</h3>
+          <p class="description">Nina is a carefree tabby who loves to play with kids!</p>
+          <button type="button" name="item-1-nina" id="item-1-nina" value="1">Add to Cart</button>
+        </div>
+      </div>  
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-2"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Kyle</h2>
+          <h3 class="price">$125</h3>
+          <p class="description">Kyle is an energetic young kitten and he is an American Shorthair</p>
+          <button type="button" name="item-2-kyle" id="item-2-kyle" value="2">Add to Cart</button>
+        </div>
+      </div>  
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-3"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Ophelia</h2>
+          <h3 class="price">$50</h3>
+          <p class="description">Ophelia is a loving and cuddly kitten and she is a Siamese kitten</p>
+          <button type="button" name="item-3-Ophelia" id="item-3-Ophelia" value="3">Add to Cart</button>
+        </div>
+      </div>  
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-4"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Bamboo</h2>
+          <h3 class="price">$150</h3>
+          <p class="description">Bamboo is a lovable cat and he is a Siamese kitten</p>
+          <button type="button" name="item-4-bamboo" id="item-4-bamboo" value="4">Add to Cart</button>
+        </div>
+      </div>  
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-5"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Jessie</h2>
+          <h3 class="price">$130</h3>
+          <p class="description">Jessie is a fun loving Domestic Short Hair Kitten</p>
+          <button type="button" name="item-5-Jessie" id="item-5-Jessie" value="5">Add to Cart</button>
+        </div>
+      </div>  
+        <div class="listing-section">
+          <div class="product">
+            <div class="image-box">
+              <div class="images" id="image-6"></div>
+        </div>
+        <div class="text-box">
+          <h2 class="item">Aster</h2>
+          <h3 class="price">$250</h3>
+          <p class="description">Aster is a sweet Burmese kitten</p>
+          <button type="button" name="item-6-Aster" id="item-6-Aster" value="6">Add to Cart</button>
+        </div>
+      </div>  
         <style>
             body {
                 background-image: url(https://c8.alamy.com/comp/2BKMKXB/tiny-baby-kittens-seamless-pattern-adorable-little-cats-background-simple-kawaii-doodle-style-2BKMKXB.jpg);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
+            }
+            * {
+              padding: 0;
+              margin: 0;
+              position: relative;
+              box-sizing: border-box;
+            }
+            .listing-section, .cart-section {
+              width: 100%;
+              float: left;
+              padding: 1%;
+              border-bottom: 0.01em solid #dd8bb4;
+            }
+            .product {
+              float: left;
+              width: 23%;
+              border-radius: 2%;
+              margin: 1%;
+            }
+            .product:hover {
+              box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+              -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4) 
+            }
+            .images {
+              height: 15em;
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+              border-radius: 2% 2% 0 0;
+            }
+            .images:hover {
+              transform: scale(1.2);
+              overflow: hidden;
+              border-radius: 2%;
             }
         </style>
     </body>
