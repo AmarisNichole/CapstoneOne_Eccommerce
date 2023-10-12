@@ -116,7 +116,16 @@
           <p class="description">Aster is a sweet Burmese kitten</p>
           <button type="button" name="item-6-Aster" id="item-6-Aster" value="6">Add to Cart</button>
         </div>
-      </div>  
+      </div>
+      <div class="cart-section">
+        
+        <div class="table-heading">
+          <h2 class="cart-product">Cat</h2>
+          <h2 class="cart-price">Price</h2>
+          <h2 class="cart-total">Total</h2>
+        </div>
+        <div class="table-content">
+          <div class="cart-product">
         <style>
             body {
                 background-image: url(https://c8.alamy.com/comp/2BKMKXB/tiny-baby-kittens-seamless-pattern-adorable-little-cats-background-simple-kawaii-doodle-style-2BKMKXB.jpg);
@@ -157,9 +166,7 @@
               background-position: center center;
               background-repeat: no-repeat;
               border-radius: 2% 2% 0 0;
-              -ms-transition: all 1s ease;
-              -webkit-transition: all 1s ease;
-              -o-transition: all 1s ease;
+              transition: all 1s ease;
             }
             .images:hover {
               transform: scale(1.2);
@@ -216,6 +223,149 @@
               font-size: 1em;
               text-align: center;
               margin: 0.2em auto;
+            }
+            input:focus {
+              outline-color: #fdf;
+            }
+            label {
+              width: 60%;
+            }
+            .text-box input {
+              width: 15%;
+              clear: none;
+            }
+            .text-box button {
+              margin-top: 1em;
+            }
+            button {
+              padding: 2%;
+              background-color: #fdf;
+              border: none;
+              border-radius: 2%;
+            }
+            button:hover {
+              bottom: 0.1em;
+            }
+            button:focus {
+              outline: 0;
+            }
+            button:active {
+              bottom: 0;
+              background-color: #dd8bb4;
+            }
+            .table-heading, .table-content {
+              width: 75%;
+              margin: 1% 12.25%;
+              float: left;
+              background-color: #fdf;
+            }
+            .table-heading h2 {
+              padding: 1%;
+              margin: 0;
+              text-align: center;
+            }
+            .cart-product {
+              width: 50%;
+              float: left;
+            }
+            .cart-price {
+              width: 15%;
+              float: left;
+            }
+            .cart-total {
+              width: 25%;
+              float: left;
+            }
+            .cart-image-box {
+              width: 20%;
+              overflow: hidden;
+              border-radius: 2%;
+              float: left;
+              margin: 1%;
+            }
+            .cart-images {
+              height: 7em;
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+            }
+            .cart-item {
+              width: 20%;
+              float: left;
+              margin: 3.2em 1%;
+              text-align: center;
+            }
+            .cart-description {
+              width: 53%;
+              float: left;
+              margin: 3.2em 1%;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 300;
+              font-size: 1em;
+              text-align: center;
+            }
+            .cart-price h3, .cart-total h3 {
+              margin: 3.2em 1%;
+              border: none;
+            }
+            .remove {
+              width: 10%;
+              margin: 1px;
+              float: right;
+              clear: right;
+            }
+            .coupon {
+              width: 20%;
+              background-color: #dfd;
+              margin: 1% 1% 1% 12.25%;
+              float: left;
+              height: 6em;
+            }
+            .coupon input {
+              width: 60%;
+              border: none;
+              margin: 12.75% 5%;
+              padding: 1%;
+            }
+            .coupon button {
+              width: 25%;
+              float: left;
+              clear: right;
+              margin: 12% 5% 12% 0;
+            }
+            .keep-shopping {
+              width: 15%;
+              height: 6em;
+              float: left;
+              margin: 1% auto;
+              padding: 1%;
+              background-color: #dfd;
+            }
+            .keep-shopping button {
+              text-transform: uppercase;
+              margin: 12% auto;
+            }
+            .checkout {
+              width: 37.25%;
+              margin: 1% 12.75% 1% 1%;
+              float: right;
+              background-color: #dfd;
+              height: 6em;
+            }
+            .checkout button {
+              width: 30%;
+              clear: none;
+              margin: 5.4% 0 5.4% 5.5%;
+              text-transform: uppercase;
+            }
+            .final-cart-total {
+              width: 15%;
+              float: right;
+              margin: 7%;
+              background-color: white;
+            }
+            .final-cart-total h3 {
+              color: black;
             }
         </style>
     </body>
